@@ -1,0 +1,139 @@
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    font-family: Arial, sans-serif;
+}
+.form-container {
+    right: 415px; 
+    height: 489px;
+    width: 469px;
+    position: relative;
+    background-color: white;
+    padding: 20px;
+    border-radius: 10px;
+    margin-top: 60px;
+}
+.signup{
+    margin-left: 90px;
+}
+.form-container input[type=text], .form-container input[type=password],input[type="email"] {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+    border-radius: 15px;
+}
+.form-container button {
+    background-color: #4CAF50;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+}
+.img img{
+    position: absolute;
+    width: 500px; 
+    left: 560px;
+    top: 20px;
+     height: 533px;
+     margin-top: 65px;
+     border-radius: 15px;
+  
+}
+
+.h1{ 
+    color: black;
+    position: relative;
+    bottom: 285px;
+    right: -14px;
+   
+}
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    
+}
+
+.social{
+    width: 200px;
+    height: 25px;
+    border: 1px solid #ccc;
+    background-color: #fff;
+    position: relative;
+    bottom: 150px;
+    right: 390px;
+    display: flex;
+
+}
+.social1{
+    position: relative;
+    position: absolute;
+    bottom: 162px;
+    right: 800px;
+    width: 200px;
+    height: 25px;
+    display: flex;
+    border: 1px solid #ccc;
+    background-color: #fff;
+   
+}
+
+.google{
+    margin-top: 5px;
+    margin-left: 10px;
+    width: 15px;
+    height: 15px;
+    
+}
+.p{
+    position: absolute;
+    right: 25px;
+    top: -13px;
+}
+.apple{
+    margin-top: 9px;
+    position: relative;
+    left: 17px;
+    width: 15px;
+    height: 15px;
+}
+.seperation {
+    text-align: center;
+    position: relative;
+    margin: 20px 0;
+}
+.seperation::before,
+.seperation::after {
+    content: "";
+    position: absolute;
+    top: 50%;
+    width:45%;
+    height: 1px;
+    background-color: #ccc;
+}
+.seperation::before {
+    left: 0;
+}
+.seperation::after {
+    right: 0;
+}
+.sign{
+    position: relative;
+    right:705px;
+    top: 205px;
+}
+.psw{
+    color: black;
+    position: relative;
+    bottom: 77px;
+    left: 314px;
+}
