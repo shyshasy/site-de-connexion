@@ -132,8 +132,9 @@ body {
     top: 205px;
 }
 .psw{
-    color: black;
+    color: blue;
     position: relative;
     bottom: 77px;
     left: 314px;
+    text-decoration: none;
 }
