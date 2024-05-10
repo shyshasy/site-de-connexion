@@ -128,8 +128,10 @@ body {
 }
 .sign{
     position: relative;
-    right:705px;
+    /* right:705px; */
     top: 205px;
+    right: 800px;
+
 }
 .psw{
     color: blue;
