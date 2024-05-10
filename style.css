@@ -128,7 +128,6 @@ body {
 }
 .sign{
     position: relative;
-    /* right:705px; */
     top: 205px;
     right: 800px;
 
@@ -138,5 +137,8 @@ body {
     position: relative;
     bottom: 77px;
     left: 314px;
+    text-decoration: none;
+}
+.terms{
     text-decoration: none;
 }
