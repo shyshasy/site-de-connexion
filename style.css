@@ -127,6 +127,7 @@ body {
     right: 0;
 }
 .sign{
+    color: blue;
     position: relative;
     top: 205px;
     right: 800px;
@@ -140,5 +141,9 @@ body {
     text-decoration: none;
 }
 .terms{
+    color: rgba(44, 13, 248, 0.79);
     text-decoration: none;
+}
+.checkbox{
+    accent-color: blue;
 }
